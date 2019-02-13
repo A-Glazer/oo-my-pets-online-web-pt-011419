@@ -1,5 +1,5 @@
 class Owner
-  attr_accessor :name
+  attr_accessor :name, :fish
   attr_reader :species
    @@all = []
 
@@ -9,6 +9,7 @@ class Owner
     @@all << self
     @species = "human"
     @name = "Katie"
+    @fish = fish
 
 
   end
@@ -42,8 +43,8 @@ class Owner
    end
 
    def buy_fish(fish)
-     new_pets = pets[:fishes] << fish
-     Fish.all.size
+    #  new_pets = pets[:fishes] << fish
+    #  Fish.all.size
 
    end
   end
