@@ -34,4 +34,8 @@ class Owner
    def name
      @name = "Katie"
    end
+
+   def pets
+
+   end
   end
