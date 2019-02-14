@@ -74,7 +74,7 @@ class Owner
          property.clear
 
     # @@all.each do |pets, property|
-binding.pry
+
 
 
         end
