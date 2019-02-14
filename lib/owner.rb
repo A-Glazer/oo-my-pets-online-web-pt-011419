@@ -73,7 +73,7 @@ class Owner
          inside.mood = "nervous"
 binding.pry
          inside.self.clear
-    #  {|fish| fish.mood = "nervous"}
+  
 
         end
       end
