@@ -73,7 +73,7 @@ class Owner
          inside.mood = "nervous"
 
     # @@all.each do |pets, property|
-
+binding.pry
 
 
         end
