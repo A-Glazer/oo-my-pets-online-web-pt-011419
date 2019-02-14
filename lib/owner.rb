@@ -1,24 +1,19 @@
 class Owner
-<<<<<<< HEAD
+
   attr_accessor :name, :fish
-  attr_reader :species
-=======
-  attr_accessor :species
->>>>>>> 8ab4ab5b4fa040e9482ca0818f7c29dd0faec438
+   attr_reader :species
+
+
    @@all = []
 
   def initialize (name)
     @owner = []
     @owner << name
     @@all << self
-<<<<<<< HEAD
+
     @species = "human"
     @name = "Katie"
     @pets = {fishes: [], dogs: [], cats: []}
-=======
->>>>>>> 8ab4ab5b4fa040e9482ca0818f7c29dd0faec438
-
-
   end
 
    def self.all
@@ -33,7 +28,7 @@ class Owner
      @@all = []
    end
 
-<<<<<<< HEAD
+
    def say_species
      "I am a #{species}."
    end
@@ -47,10 +42,21 @@ class Owner
       pets[:fishes] << Fish.new(fish)
 
    end
-=======
+
    def species
-     @species = species
+      @species
    end
 
->>>>>>> 8ab4ab5b4fa040e9482ca0818f7c29dd0faec438
-  end
+   def buy_cat(cat)
+     pets[:cats] << Cat.new(cat)
+   end
+
+   def buy_dog(dog)
+     pets[:dogs] << Dog.new(dog)
+   end
+
+   def walk_dogs
+      binding.pry
+     Dog.mood = "happy"
+   end
+end
