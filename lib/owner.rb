@@ -71,8 +71,8 @@ class Owner
      pets.each do |pet, property|
        property.each do |inside|
          inside.mood = "nervous"
-binding.pry
-         inside.self.clear
+
+
 
 
         end
