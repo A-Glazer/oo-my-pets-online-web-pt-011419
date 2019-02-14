@@ -76,8 +76,8 @@ class Owner
 
 binding.pry
 
-        # end
-      # end
-      # pets
+        end
+       end
+       pets
     end
 end
