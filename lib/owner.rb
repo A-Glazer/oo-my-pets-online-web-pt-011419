@@ -71,7 +71,8 @@ class Owner
      pets.each do |pet, property|
        property.each do |inside|
          inside.mood = "nervous"
-         inside.name.clear
+binding.pry
+         inside.self.clear
     #  {|fish| fish.mood = "nervous"}
 
         end
