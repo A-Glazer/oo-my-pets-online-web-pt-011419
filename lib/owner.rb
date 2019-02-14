@@ -71,6 +71,7 @@ class Owner
      pets.each do |pet, property|
        property.each do |inside|
          inside.mood = "nervous"
+         
     # @@all.each do |pets, property|
 
 binding.pry
