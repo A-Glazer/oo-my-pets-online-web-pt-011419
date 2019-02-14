@@ -78,6 +78,7 @@ class Owner
 
     def list_pets
       @pets[:fishes].count
+      binding.pry
     end
 
 
