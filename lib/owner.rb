@@ -74,7 +74,7 @@ class Owner
 
     # @@all.each do |pets, property|
 
-binding.pry
+
 
         end
        end
