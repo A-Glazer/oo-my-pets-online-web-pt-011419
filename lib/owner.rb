@@ -1,6 +1,6 @@
 class Owner
 
-  attr_accessor :name, :fish
+  attr_accessor :name, :fish, :pets
    attr_reader :species
 
 
@@ -66,4 +66,16 @@ class Owner
    def feed_fish
      pets[:fishes].each {|fish| fish.mood = "happy"}
    end
+
+   def sell_pets
+     pets.each do |pet, property|
+       property.each do |inside|
+         inside.mood = "nervous"
+         inside.name.clear
+    #  {|fish| fish.mood = "nervous"}
+
+        end
+      end
+      pets
+    end
 end
