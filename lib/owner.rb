@@ -81,7 +81,7 @@ class Owner
       dog_num = @pets[:dogs].count
       cat_num = @pets[:cats].count
       ""
-      
+
     end
 
 
